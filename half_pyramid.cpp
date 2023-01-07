@@ -6,7 +6,7 @@ int main() {
 
     int row;
     int col;
-    int height = 5;
+    int max = 5;
 
     /* 
     
@@ -27,7 +27,7 @@ int main() {
 
     */
    
-    for (row = 0; row < height; row++) {
+    for (row = 0; row < max; row++) {
 
         for (int col = 0; col <= row; col++) {
 
