@@ -11,14 +11,14 @@ int main() {
     /* 
     
     The logic for pyramids in CLI is that the outer for-loop will
-    represents the rows of the pyramid (can also be called height) and
-    the important statement of the outer for-loop is printing a newline.
+    represent the rows of the pyramid (can also be called height) and
+    the important function of the outer for-loop is printing a newline.
     
     This outer for-loop will contain what should be added in as the columns.
     
     from my example, the pyramid should have a max row of 5 and the max
     column of the pyramid will inherit the row of the pyramid. for every 
-    loop of the row, the column will increase thereform creating a pyramid. 
+    loop of the row, the column will increase therefore creating a pyramid. 
     
     
     REMEMBER:
