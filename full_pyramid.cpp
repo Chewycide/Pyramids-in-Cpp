@@ -23,20 +23,28 @@ int main() {
 
     The second nested for-loop will be the same as creating a half pyramid.
     The pattern only becomes a full pyramid since the first nested for-loop
-    is pushing the items to the right.
+    is pushing the items to the right AND there should be a space on either
+    side of the character. without the space beside the character, the
+    pattern will display as a flipped half pyramid.
+
+    NOTE: the item is the character that is used to display the pyramid.
+    in this example, it is the character '#'.
     
     */
 
 
     for (height = 0; height < max; height++) {
+        // row
 
         
         for (width = max; width > height; width--) {
+            // whitespace to push items to the right
             cout << " ";
         }
 
 
         for (width = 0; width <= height; width++) {
+            // the item. must contain a space on either side.
             cout << "# ";
         }
 
